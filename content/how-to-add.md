@@ -183,7 +183,7 @@ git push -u origin main
 ```
 
 3. 打开 GitHub 仓库的 **Settings → Pages**，把 **Build and deployment → Source** 设为 **GitHub Actions**。
-4. 进入 **Actions** 页面，等待 “Deploy site” 工作流完成。
+4. 进入 **Actions** 页面，等待 “Deploy site” 工作流完成。如果首次运行发生在 Pages 尚未启用时，打开该次运行并点 **Re-run all jobs**。
 5. 站点地址通常是：
 
 ```text

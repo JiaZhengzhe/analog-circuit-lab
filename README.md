@@ -113,7 +113,7 @@ git push -u origin main
 ```
 
 3. 打开仓库 **Settings → Pages**，将 **Source** 设为 **GitHub Actions**。
-4. 等待 **Actions → Deploy site** 完成，访问：
+4. 等待 **Actions → Deploy site** 完成。如果第一次运行发生在 Pages 尚未启用时，进入该次运行点 **Re-run all jobs**。完成后访问：
 
 ```text
 https://<你的用户名>.github.io/analog-circuit-lab/
