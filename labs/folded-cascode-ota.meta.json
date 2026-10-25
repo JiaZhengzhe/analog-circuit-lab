@@ -1,0 +1,15 @@
+{
+  "title": "折叠共源共栅 OTA：完整设计方法（网页版）",
+  "description": "从架构选择、原理推导、指标权衡到器件定尺寸的交互式网页手册，含 12-bit 50 MS/s SC MDAC 案例。",
+  "tags": [
+    "OTA",
+    "设计流程",
+    "交互阅读"
+  ],
+  "date": "2026-10-24",
+  "order": 1,
+  "minutes": 45,
+  "difficulty": "进阶",
+  "accent": "copper",
+  "cover": "covers/ota-manual.svg"
+}

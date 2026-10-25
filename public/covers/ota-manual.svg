@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="折叠共源共栅 OTA 设计方法封面">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c252b"/>
+      <stop offset="0.62" stop-color="#10343a"/>
+      <stop offset="1" stop-color="#0a1d21"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#9cc8c7" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#69bdc0" stop-opacity=".35"/>
+      <stop offset=".55" stop-color="#e1a170"/>
+      <stop offset="1" stop-color="#e1a170" stop-opacity=".15"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <g fill="#dbe7e4" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+    <text x="72" y="78" font-family="Cascadia Code, Consolas, monospace" font-size="15" letter-spacing="4" fill="#e0a170">ANALOG CIRCUIT LAB / DESIGN NOTE 01</text>
+    <text x="72" y="190" font-size="64" font-weight="650" letter-spacing="-2">折叠共源共栅 OTA</text>
+    <text x="74" y="238" font-size="20" fill="#9fb5b4" letter-spacing="1">从规格、增益与摆幅，到晶体管尺寸和迭代验证</text>
+  </g>
+  <g transform="translate(72 300)" fill="none" stroke="#b6d6d3" stroke-width="2">
+    <path d="M0 0v70M0 35h44M44 0v28M44 42v28M104 0v70M104 35h-16M148 0v70M148 35h-16" opacity=".55"/>
+    <path d="M44 35h38M104 35h38" opacity=".8"/>
+    <rect x="82" y="22" width="22" height="26" rx="3" stroke="#e3a474" stroke-width="2.2"/>
+    <rect x="122" y="22" width="22" height="26" rx="3" stroke="#e3a474" stroke-width="2.2"/>
+    <path d="M104 35v26" stroke="#e3a474"/>
+    <circle cx="104" cy="61" r="7"/>
+    <path d="M0 70h-18M148 70h18" opacity=".55"/>
+    <path d="M-18 98h184" stroke="url(#trace)" stroke-width="3"/>
+    <text x="-18" y="126" fill="#849c9b" stroke="none" font-family="Cascadia Code, Consolas, monospace" font-size="12" letter-spacing="2">M1 / M2 INPUT PAIR</text>
+  </g>
+  <g transform="translate(775 114)">
+    <rect width="352" height="450" rx="18" fill="#0a1a1e" fill-opacity=".55" stroke="#8db6b4" stroke-opacity=".18"/>
+    <text x="28" y="42" fill="#dca475" font-family="Cascadia Code, Consolas, monospace" font-size="11" letter-spacing="2.5">12-BIT / 50 MS/s</text>
+    <text x="28" y="92" fill="#eef3ee" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="27" font-weight="600">SC MDAC 贯穿案例</text>
+    <path d="M28 116h296" stroke="#8db6b4" stroke-opacity=".18"/>
+    <g transform="translate(28 152)" fill="none" stroke="#79c4c3" stroke-width="1.8">
+      <path d="M0 54c20-44 40-44 60 0s40 44 60 0 40-44 60 0 40 44 60 0 40-44 60 0 40 44 60 0" opacity=".55"/>
+      <path d="M0 54h296M0 54v44M296 54v44" stroke-dasharray="3 6" opacity=".4"/>
+      <path d="M0 120h40v-12h42v12h42v-28h42v28h42v-42h42v42h46" stroke="#e3a474" stroke-width="2.2"/>
+    </g>
+    <text x="28" y="322" fill="#849c9b" font-family="Cascadia Code, Consolas, monospace" font-size="11" letter-spacing="1.5">gm / gm·ro / HEADROOM / PM</text>
+    <g transform="translate(28 360)" fill="#eef3ee" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15">
+      <text y="0">架构选择</text><text x="110" y="0" fill="#849c9b">·</text><text x="130" y="0">噪声预算</text><text x="238" y="0" fill="#849c9b">·</text><text x="258" y="0">尺寸迭代</text>
+      <text y="44" fill="#9fb5b4" font-size="13">一份可复核的设计推导，而不是一组孤立数字。</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#dca475" stroke-width="2" opacity=".75">
+    <path d="M1092 86h36v36M1128 86l-42 42"/>
+  </g>
+  <text x="72" y="620" fill="#6f8988" font-family="Cascadia Code, Consolas, monospace" font-size="12" letter-spacing="2">FOLDED CASCODE / SINGLE-STAGE OTA / FIELD NOTES</text>
+</svg>

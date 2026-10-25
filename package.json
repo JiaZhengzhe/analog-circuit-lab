@@ -1,0 +1,31 @@
+{
+  "name": "analog-circuit-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A static, extensible learning site for analog circuit notes and interactive tutorials.",
+  "license": "MIT",
+  "keywords": [
+    "analog-circuits",
+    "learning-notes",
+    "static-site",
+    "systemverilog",
+    "ota"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/dev.mjs --preview",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.11.1",
+    "katex": "^0.16.22",
+    "markdown-it": "^14.1.0"
+  }
+}

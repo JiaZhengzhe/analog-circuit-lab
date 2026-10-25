@@ -1,0 +1,15 @@
+{
+  "title": "AFE 系统行为级建模 · SystemVerilog 教程",
+  "description": "从连续时间推导到可复用实数模型：LNA、AAF、PGA、ADC 的行为级建模，UVM 集成与 FFT 指标分析。",
+  "tags": [
+    "SystemVerilog",
+    "AFE",
+    "RNM"
+  ],
+  "date": "2026-10-25",
+  "order": 2,
+  "minutes": 60,
+  "difficulty": "中高级",
+  "accent": "teal",
+  "cover": "covers/afe-tutorial.svg"
+}
