@@ -2,6 +2,8 @@
 
 一个用普通文件维护的模拟电路学习站点。Markdown 笔记和独立 HTML 教程放进仓库，构建时自动生成目录、搜索、公式排版、上一页/下一页，并可以通过 GitHub Pages 发布到外网。
 
+**在线访问**：<https://jiazhengzhe.github.io/analog-circuit-lab/>
+
 ![模拟电路学习站首页](docs/preview.png)
 
 ## 它解决什么问题
